@@ -80,7 +80,6 @@ do
 {
     // display the top-level menu options
 
-    // NOTE: the Console.Clear method is throwing an exception in debug sessions
     Console.Clear();
 
     Console.WriteLine("Welcome to the Contoso PetFriends app. Your main menu options are:");

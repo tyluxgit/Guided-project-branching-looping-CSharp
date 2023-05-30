@@ -181,6 +181,10 @@ do
                         {
                             validEntry = int.TryParse(animalAge, out petAge);
                         }
+                        else
+                        {
+                            validEntry = true;
+                        }
                     }
                 } while (validEntry == false);
 

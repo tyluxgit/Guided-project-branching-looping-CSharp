@@ -158,6 +158,8 @@ do
                     {
                         validEntry = true;
                     }
+                    // build the animal the ID number - for example C1, C2, D3 (for Cat 1, Cat 2, Dog 3)
+                    animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
                 }
             } while (validEntry == false);
 
